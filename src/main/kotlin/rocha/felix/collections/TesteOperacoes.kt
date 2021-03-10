@@ -10,8 +10,8 @@ fun main(){
 
 
     println("==============================")
-    println("Maior Salario: ${salarios.max()}")
-    println("Menor salario ${salarios.min()}")
+    println("Maior Salario: ${salarios.maxOrNull()}")
+    println("Menor salario ${salarios.minOrNull()}")
     println("Salario Medio: ${salarios.average()}")
 
     //Seleciona os maiores salarios de acordo com o filtro
