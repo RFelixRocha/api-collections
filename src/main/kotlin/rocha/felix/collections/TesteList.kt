@@ -12,6 +12,9 @@ fun main() {
     println("================FIND=====================")
 
     println(listFuncionarios.find { it.nome == "Larissa" })
+
+    println("================SORTBY=====================")
+    listFuncionarios.sortedBy { it.salario }.forEach { println(it) }
 }
 
 data class Funcionarios(
