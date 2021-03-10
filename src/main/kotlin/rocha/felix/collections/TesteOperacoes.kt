@@ -23,6 +23,9 @@ fun main(){
     println(salarios.count{it in 1200.0..5000.0})
 
     println("============FIND==================")
-    println(salarios.find{it == 4000.0})
+    println(salarios.find{it == 4060.0})
+
+    println("============ANY==================")
+    println(salarios.any{it == 4000.0})
 
 }
