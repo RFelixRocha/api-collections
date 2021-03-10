@@ -21,4 +21,8 @@ fun main(){
 
     println("============RANGE==================")
     println(salarios.count{it in 1200.0..5000.0})
+
+    println("============FIND==================")
+    println(salarios.find{it == 4000.0})
+
 }
